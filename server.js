@@ -7,7 +7,7 @@ var object = {
 }
 var Slack = require('slack-node');
 
-apiToken = "7822857132be7254bff8078f2722d6c8";
+apiToken = "4098180171.4151359858";
 
 slack = new Slack(apiToken);
 
