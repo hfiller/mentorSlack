@@ -1,0 +1,20 @@
+{
+  "name":"MentorShip-Slack",
+  "description":"Connects online mentorship requests to a slack channel intelligently",
+  "author":"Hannes Filler <hfiller2@uwo.ca>",
+  "scripts":{
+    "start": "node server.js",
+    "predeploy":"echo starting server ....",
+    "postdeploy":"echo and we are LIVE."
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/hfiller/mentorship"
+  },
+  "dependencies":{
+    "express" : "*",
+    "request": "*",
+    "mongoose": "*",
+    "bcrypt":"*"
+  }
+}
